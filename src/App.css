@@ -1,8 +1,32 @@
 .groupHeader {
   cursor: pointer;
   background-color: #f0f0f0;
+  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .groupHeader:hover {
   background-color: #e0e0e0;
 }
+.paperContainer {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-top: 2.5rem;
+}
+/* App.css */
+.colorClasses {
+  background-color: #f0f0f0; 
+}
+
+.colorClasses:nth-child(odd) {
+  background-color: #e0e0e0; 
+}
+
+.colorClasses.red {
+  background-color: #ffcccc; 
+}
+
+.colorClasses.green {
+  background-color: #ccffcc; 
+}
+
+
